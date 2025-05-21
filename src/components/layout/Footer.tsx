@@ -8,14 +8,14 @@ const Footer = () => {
       <div className="container-custom py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
-            <h3 className="text-2xl font-bold mb-4">YourLogo</h3>
+            <h3 className="text-2xl font-bold mb-4">Wonlik</h3>
             <p className="text-slate-300 mb-4">
-              Excellence in product solutions since 2023.
+              Excellence in product solutions since 2024.
             </p>
           </div>
           
-          <div className="md:col-span-3 grid grid-cols-2 sm:grid-cols-3 gap-8">
-            <div>
+          <div className="md:col-span-3 grid grid-cols-4 sm:grid-cols-4 gap-8">
+            {/* <div>
               <h4 className="text-lg font-semibold mb-4">Products</h4>
               <ul className="space-y-2">
                 <li>
@@ -39,9 +39,9 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
             
-            <div>
+            {/* <div>
               <h4 className="text-lg font-semibold mb-4">Company</h4>
               <ul className="space-y-2">
                 <li>
@@ -65,24 +65,24 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
             
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="mailto:info@yourcompany.com" className="text-slate-300 hover:text-white transition-colors">
-                    info@yourcompany.com
+                  <a href="tony@wonlik.com" className="text-slate-300 hover:text-white transition-colors">
+                    tony@wonlik.com
                   </a>
                 </li>
                 <li>
                   <a href="tel:+1234567890" className="text-slate-300 hover:text-white transition-colors">
-                    +1 (234) 567-890
+                    +46 73 706 25 14
                   </a>
                 </li>
                 <li>
                   <p className="text-slate-300">
-                    123 Business St.<br />City, State 12345
+                    Färgspelsgatan 92<br />Göteborg, 421 63<br />Sweden
                   </p>
                 </li>
               </ul>
@@ -92,7 +92,7 @@ const Footer = () => {
         
         <div className="border-t border-slate-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-slate-400 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+            &copy; {new Date().getFullYear()} Wonlik. All rights reserved.
           </div>
           
           <div className="flex space-x-6">

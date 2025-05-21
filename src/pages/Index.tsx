@@ -11,12 +11,12 @@ import Contact from '@/components/sections/Contact';
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar />
-      <main className="flex-grow">
+      {/* <Navbar /> */}
+      <main className="flex-xgrow">
         <Hero />
         <About />
-        <Products />
-        <Testimonials />
+        {/* <Products />
+        <Testimonials /> */}
         <Contact />
       </main>
       <Footer />

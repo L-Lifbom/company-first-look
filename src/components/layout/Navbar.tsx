@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <a href="/" className="flex items-center space-x-2">
             <span className="text-2xl font-bold text-primary">
-              YourLogo
+              Wonlik
             </span>
           </a>
         </div>
@@ -22,9 +22,9 @@ const Navbar = () => {
           <a href="#about" className="text-sm font-medium text-slate-700 hover:text-accent transition-colors">
             About
           </a>
-          <a href="#products" className="text-sm font-medium text-slate-700 hover:text-accent transition-colors">
+          {/* <a href="#products" className="text-sm font-medium text-slate-700 hover:text-accent transition-colors">
             Products
-          </a>
+          </a> */}
           <a href="#testimonials" className="text-sm font-medium text-slate-700 hover:text-accent transition-colors">
             Testimonials
           </a>
@@ -32,11 +32,7 @@ const Navbar = () => {
             Contact
           </a>
         </nav>
-        
-        <div className="hidden md:flex items-center space-x-4">
-          <Button variant="ghost">Log in</Button>
-          <Button>Get Started</Button>
-        </div>
+      
         
         <button 
           className="md:hidden"
@@ -65,13 +61,13 @@ const Navbar = () => {
           >
             About
           </a>
-          <a 
+          {/* <a 
             href="#products" 
             className="text-lg font-medium py-2 border-b"
             onClick={() => setMobileMenuOpen(false)}
           >
             Products
-          </a>
+          </a> */}
           <a 
             href="#testimonials" 
             className="text-lg font-medium py-2 border-b"

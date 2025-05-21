@@ -29,7 +29,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium mb-1">Phone</h4>
-                  <p className="text-slate-600">+1 (234) 567-890</p>
+                  <p className="text-slate-600">+46 73 706 25 14</p>
                 </div>
               </div>
               
@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium mb-1">Email</h4>
-                  <p className="text-slate-600">info@yourcompany.com</p>
+                  <p className="text-slate-600">tony@wonlik.com</p>
                 </div>
               </div>
               
@@ -55,14 +55,14 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium mb-1">Address</h4>
                   <p className="text-slate-600">
-                    123 Business St.<br />
-                    City, State 12345<br />
-                    United States
+                    Färgspelsgatan 92<br />
+                    Göteborg, 421 63<br />
+                    Sweden
                   </p>
                 </div>
               </div>
               
-              <div className="flex items-start">
+              {/* <div className="flex items-start">
                 <div className="mr-4 p-3 bg-accent/10 rounded-full">
                   <svg className="h-5 w-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -75,7 +75,7 @@ const Contact = () => {
                     Saturday & Sunday: Closed
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           
